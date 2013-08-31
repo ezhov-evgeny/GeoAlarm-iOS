@@ -12,18 +12,19 @@
 		071A75D21792BA93001AAEFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071A75D11792BA93001AAEFB /* CoreGraphics.framework */; };
 		071A75D81792BA93001AAEFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071A75D61792BA93001AAEFB /* InfoPlist.strings */; };
 		071A75DA1792BA93001AAEFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A75D91792BA93001AAEFB /* main.m */; };
-		071A75DE1792BA93001AAEFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A75DD1792BA93001AAEFB /* AppDelegate.m */; };
 		071A75E01792BA93001AAEFB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 071A75DF1792BA93001AAEFB /* Default.png */; };
 		071A75E21792BA93001AAEFB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 071A75E11792BA93001AAEFB /* Default@2x.png */; };
 		071A75E41792BA93001AAEFB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 071A75E31792BA93001AAEFB /* Default-568h@2x.png */; };
-		071A75EA1792BA93001AAEFB /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A75E91792BA93001AAEFB /* DataViewController.m */; };
-		071A75ED1792BA93001AAEFB /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A75EC1792BA93001AAEFB /* ModelController.m */; };
-		071A75F01792BA93001AAEFB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071A75EE1792BA93001AAEFB /* MainStoryboard.storyboard */; };
 		071A75F81792BA93001AAEFB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071A75F71792BA93001AAEFB /* SenTestingKit.framework */; };
 		071A75F91792BA93001AAEFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071A75CD1792BA93001AAEFB /* UIKit.framework */; };
 		071A75FA1792BA93001AAEFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071A75CF1792BA93001AAEFB /* Foundation.framework */; };
 		071A76021792BA93001AAEFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071A76001792BA93001AAEFB /* InfoPlist.strings */; };
 		071A76051792BA93001AAEFB /* GeoAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A76041792BA93001AAEFB /* GeoAlarmTests.m */; };
+		075B3C1E17CA007D00C53167 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075B3C1D17CA007D00C53167 /* CoreTelephony.framework */; };
+		075B3C1F17CA0C0800C53167 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075B3C1D17CA007D00C53167 /* CoreTelephony.framework */; };
+		075B3C3A17D1DD6700C53167 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B3C3917D1DD6700C53167 /* AppDelegate.m */; };
+		075B3C3F17D1DD9700C53167 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075B3C3E17D1DD9700C53167 /* Storyboard.storyboard */; };
+		07CC85D217D1E22500C2F80A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC85D117D1E22500C2F80A /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,22 +46,21 @@
 		071A75D71792BA93001AAEFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		071A75D91792BA93001AAEFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		071A75DB1792BA93001AAEFB /* GeoAlarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoAlarm-Prefix.pch"; sourceTree = "<group>"; };
-		071A75DC1792BA93001AAEFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		071A75DD1792BA93001AAEFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		071A75DF1792BA93001AAEFB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		071A75E11792BA93001AAEFB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		071A75E31792BA93001AAEFB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		071A75E81792BA93001AAEFB /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		071A75E91792BA93001AAEFB /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		071A75EB1792BA93001AAEFB /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		071A75EC1792BA93001AAEFB /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
-		071A75EF1792BA93001AAEFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		071A75F61792BA93001AAEFB /* GeoAlarmTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoAlarmTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		071A75F71792BA93001AAEFB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		071A75FF1792BA93001AAEFB /* GeoAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoAlarmTests-Info.plist"; sourceTree = "<group>"; };
 		071A76011792BA93001AAEFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		071A76031792BA93001AAEFB /* GeoAlarmTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoAlarmTests.h; sourceTree = "<group>"; };
 		071A76041792BA93001AAEFB /* GeoAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoAlarmTests.m; sourceTree = "<group>"; };
+		075B3C1D17CA007D00C53167 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		075B3C3817D1DD6700C53167 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		075B3C3917D1DD6700C53167 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		075B3C3E17D1DD9700C53167 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		07CC85D017D1E22500C2F80A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		07CC85D117D1E22500C2F80A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075B3C1F17CA0C0800C53167 /* CoreTelephony.framework in Frameworks */,
 				071A75CE1792BA93001AAEFB /* UIKit.framework in Frameworks */,
 				071A75D01792BA93001AAEFB /* Foundation.framework in Frameworks */,
 				071A75D21792BA93001AAEFB /* CoreGraphics.framework in Frameworks */,
@@ -78,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075B3C1E17CA007D00C53167 /* CoreTelephony.framework in Frameworks */,
 				071A75F81792BA93001AAEFB /* SenTestingKit.framework in Frameworks */,
 				071A75F91792BA93001AAEFB /* UIKit.framework in Frameworks */,
 				071A75FA1792BA93001AAEFB /* Foundation.framework in Frameworks */,
@@ -109,6 +111,7 @@
 		071A75CC1792BA93001AAEFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				075B3C1D17CA007D00C53167 /* CoreTelephony.framework */,
 				071A75CD1792BA93001AAEFB /* UIKit.framework */,
 				071A75CF1792BA93001AAEFB /* Foundation.framework */,
 				071A75D11792BA93001AAEFB /* CoreGraphics.framework */,
@@ -120,13 +123,11 @@
 		071A75D31792BA93001AAEFB /* GeoAlarm */ = {
 			isa = PBXGroup;
 			children = (
-				071A75DC1792BA93001AAEFB /* AppDelegate.h */,
-				071A75DD1792BA93001AAEFB /* AppDelegate.m */,
-				071A75E81792BA93001AAEFB /* DataViewController.h */,
-				071A75E91792BA93001AAEFB /* DataViewController.m */,
-				071A75EB1792BA93001AAEFB /* ModelController.h */,
-				071A75EC1792BA93001AAEFB /* ModelController.m */,
-				071A75EE1792BA93001AAEFB /* MainStoryboard.storyboard */,
+				07CC85D017D1E22500C2F80A /* MainViewController.h */,
+				07CC85D117D1E22500C2F80A /* MainViewController.m */,
+				075B3C3817D1DD6700C53167 /* AppDelegate.h */,
+				075B3C3917D1DD6700C53167 /* AppDelegate.m */,
+				075B3C3E17D1DD9700C53167 /* Storyboard.storyboard */,
 				071A75D41792BA93001AAEFB /* Supporting Files */,
 			);
 			path = GeoAlarm;
@@ -240,7 +241,7 @@
 				071A75E01792BA93001AAEFB /* Default.png in Resources */,
 				071A75E21792BA93001AAEFB /* Default@2x.png in Resources */,
 				071A75E41792BA93001AAEFB /* Default-568h@2x.png in Resources */,
-				071A75F01792BA93001AAEFB /* MainStoryboard.storyboard in Resources */,
+				075B3C3F17D1DD9700C53167 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				071A75DA1792BA93001AAEFB /* main.m in Sources */,
-				071A75DE1792BA93001AAEFB /* AppDelegate.m in Sources */,
-				071A75EA1792BA93001AAEFB /* DataViewController.m in Sources */,
-				071A75ED1792BA93001AAEFB /* ModelController.m in Sources */,
+				075B3C3A17D1DD6700C53167 /* AppDelegate.m in Sources */,
+				07CC85D217D1E22500C2F80A /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +307,6 @@
 				071A75D71792BA93001AAEFB /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		071A75EE1792BA93001AAEFB /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				071A75EF1792BA93001AAEFB /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		071A76001792BA93001AAEFB /* InfoPlist.strings */ = {
