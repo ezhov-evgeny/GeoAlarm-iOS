@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LocationService.h"
 
 @interface MainViewController : UIViewController
-    @property (weak, nonatomic) IBOutlet UITextView *outputText;
+@property (strong, nonatomic) LocationService *locationService;
+@property (weak, nonatomic) IBOutlet UITextView *outputText;
 
 @end
