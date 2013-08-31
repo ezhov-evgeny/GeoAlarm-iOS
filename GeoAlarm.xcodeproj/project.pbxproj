@@ -20,11 +20,11 @@
 		071A75FA1792BA93001AAEFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071A75CF1792BA93001AAEFB /* Foundation.framework */; };
 		071A76021792BA93001AAEFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071A76001792BA93001AAEFB /* InfoPlist.strings */; };
 		071A76051792BA93001AAEFB /* GeoAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A76041792BA93001AAEFB /* GeoAlarmTests.m */; };
-		075B3C1E17CA007D00C53167 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075B3C1D17CA007D00C53167 /* CoreTelephony.framework */; };
-		075B3C1F17CA0C0800C53167 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075B3C1D17CA007D00C53167 /* CoreTelephony.framework */; };
 		075B3C3A17D1DD6700C53167 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B3C3917D1DD6700C53167 /* AppDelegate.m */; };
 		075B3C3F17D1DD9700C53167 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075B3C3E17D1DD9700C53167 /* Storyboard.storyboard */; };
 		07CC85D217D1E22500C2F80A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC85D117D1E22500C2F80A /* MainViewController.m */; };
+		07CC85D517D1E3B800C2F80A /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC85D417D1E3B800C2F80A /* LocationService.m */; };
+		07CC85D717D1E45A00C2F80A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CC85D617D1E45A00C2F80A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,12 +55,14 @@
 		071A76011792BA93001AAEFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		071A76031792BA93001AAEFB /* GeoAlarmTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoAlarmTests.h; sourceTree = "<group>"; };
 		071A76041792BA93001AAEFB /* GeoAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoAlarmTests.m; sourceTree = "<group>"; };
-		075B3C1D17CA007D00C53167 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		075B3C3817D1DD6700C53167 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		075B3C3917D1DD6700C53167 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		075B3C3E17D1DD9700C53167 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		07CC85D017D1E22500C2F80A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		07CC85D117D1E22500C2F80A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		07CC85D317D1E3B800C2F80A /* LocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationService.h; sourceTree = "<group>"; };
+		07CC85D417D1E3B800C2F80A /* LocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationService.m; sourceTree = "<group>"; };
+		07CC85D617D1E45A00C2F80A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075B3C1F17CA0C0800C53167 /* CoreTelephony.framework in Frameworks */,
+				07CC85D717D1E45A00C2F80A /* CoreLocation.framework in Frameworks */,
 				071A75CE1792BA93001AAEFB /* UIKit.framework in Frameworks */,
 				071A75D01792BA93001AAEFB /* Foundation.framework in Frameworks */,
 				071A75D21792BA93001AAEFB /* CoreGraphics.framework in Frameworks */,
@@ -79,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075B3C1E17CA007D00C53167 /* CoreTelephony.framework in Frameworks */,
 				071A75F81792BA93001AAEFB /* SenTestingKit.framework in Frameworks */,
 				071A75F91792BA93001AAEFB /* UIKit.framework in Frameworks */,
 				071A75FA1792BA93001AAEFB /* Foundation.framework in Frameworks */,
@@ -111,7 +112,7 @@
 		071A75CC1792BA93001AAEFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				075B3C1D17CA007D00C53167 /* CoreTelephony.framework */,
+				07CC85D617D1E45A00C2F80A /* CoreLocation.framework */,
 				071A75CD1792BA93001AAEFB /* UIKit.framework */,
 				071A75CF1792BA93001AAEFB /* Foundation.framework */,
 				071A75D11792BA93001AAEFB /* CoreGraphics.framework */,
@@ -123,10 +124,12 @@
 		071A75D31792BA93001AAEFB /* GeoAlarm */ = {
 			isa = PBXGroup;
 			children = (
-				07CC85D017D1E22500C2F80A /* MainViewController.h */,
-				07CC85D117D1E22500C2F80A /* MainViewController.m */,
 				075B3C3817D1DD6700C53167 /* AppDelegate.h */,
 				075B3C3917D1DD6700C53167 /* AppDelegate.m */,
+				07CC85D317D1E3B800C2F80A /* LocationService.h */,
+				07CC85D417D1E3B800C2F80A /* LocationService.m */,
+				07CC85D017D1E22500C2F80A /* MainViewController.h */,
+				07CC85D117D1E22500C2F80A /* MainViewController.m */,
 				075B3C3E17D1DD9700C53167 /* Storyboard.storyboard */,
 				071A75D41792BA93001AAEFB /* Supporting Files */,
 			);
@@ -279,6 +282,7 @@
 				071A75DA1792BA93001AAEFB /* main.m in Sources */,
 				075B3C3A17D1DD6700C53167 /* AppDelegate.m in Sources */,
 				07CC85D217D1E22500C2F80A /* MainViewController.m in Sources */,
+				07CC85D517D1E3B800C2F80A /* LocationService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
